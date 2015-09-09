@@ -16,14 +16,102 @@
 
 <resources>
 
-  <style name="MdEditText">
+  <style name="Base.MdEditText" parent="">
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">wrap_content</item>
+    <item name="android:minHeight">?attr/mdEditText_height_md</item>
+    <item name="android:textColor">?attr/mdTextColor_backgroundPalette</item>
     <item name="android:textColorHint">?attr/mdHintTextColor_backgroundPalette</item>
   </style>
 
-  <style name="MdEditText.SingleLine">
+  <!-- SingleLine -->
+
+  <style name="MdEditText.SingleLine" parent="">
     <item name="android:singleLine">true</item>
+  </style>
+
+  <!-- SingleLine.DropDown -->
+
+  <style name="MdEditText.SingleLine.DropDown">
+
+  </style>
+
+  <!-- MultipleLine -->
+
+  <style name="MdEditText.MultipleLine" parent="">
+
+  </style>
+
+  <!-- SingleLineWithIcon -->
+
+  <style name="MdEditText.SingleLineWithIcon" parent="">
+
+  </style>
+
+  <style name="MdEditText.SingleLineWithIcon.Icon" parent="">
+
+  </style>
+
+  <style name="MdEditText.SingleLineWithIcon.EditText" parent="">
+
+  </style>
+
+  <!-- FloatingLabel-->
+
+  <style name="MdEditText.FloatingLabel" parent="">
+
+  </style>
+
+  <style name="MdEditText.FloatingLabel.SingleLine" parent="">
+
+  </style>
+
+  <style name="MdEditText.FloatingLabel.SingleLine.Dropdown" parent="">
+
+  </style>
+
+  <style name="MdEditText.FloatingLabel.MultipleLine" parent="">
+
+  </style>
+
+  <!-- CharacterCount -->
+
+  <style name="MdEditText.CharacterCount" parent="">
+
+  </style>
+
+  <style name="MdEditText.CharacterCount.SingleLine" parent="">
+
+  </style>
+
+  <style name="MdEditText.CharacterCount.SingleLine.Dropdown" parent="">
+
+  </style>
+
+  <style name="MdEditText.CharacterCount.MultipleLine" parent="">
+
+  </style>
+
+  <!-- FullWidth -->
+
+  <style name="MdEditText.FullWidth.SingleLine" parent="">
+
+  </style>
+
+  <style name="MdEditText.FullWidth.SingleLine.Dropdown" parent="">
+
+  </style>
+
+  <style name="MdEditText.FullWidth.MultipleLine" parent="">
+
+  </style>
+
+  <style name="MdEditText.FullWidth.SingleLine.CharacterCount" parent="">
+
+  </style>
+
+  <style name="MdEditText.FullWidth.MultipleLine.CharacterCount" parent="">
+
   </style>
 
 </resources>

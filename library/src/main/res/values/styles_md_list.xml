@@ -21,7 +21,7 @@
     <item name="android:layout_height">wrap_content</item>
   </style>
 
-  <style name="MdList.Spacing">
+  <style name="MdList.Spacing" parent="">
     <item name="android:layout_width">match_parent</item>
     <item name="android:layout_height">?attr/mdList_spacing</item>
   </style>
@@ -35,7 +35,9 @@
     <item name="android:textStyle">bold</item>
   </style>
 
-  <style name="MdList.Wrapper">
+  <style name="MdList.Wrapper" parent="">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
     <item name="android:orientation">vertical</item>
     <item name="android:layout_centerVertical">true</item>
     <item name="android:paddingTop">?attr/mdLayout_spacing_sm</item>

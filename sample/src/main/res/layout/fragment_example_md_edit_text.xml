@@ -15,6 +15,7 @@
   -->
 
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
@@ -29,7 +30,147 @@
 
     <View style="@style/MdList.Spacing" />
 
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
 
+      <View
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="#446677" />
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="5"
+        android:background="#cc8899">
+
+        <EditText
+          android:layout_width="match_parent"
+          android:layout_height="48dp"
+          android:hint="Text..." />
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="5"
+        android:background="#998833">
+
+        <EditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Text..." />
+      </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:orientation="horizontal">
+
+      <View
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="#446677" />
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="5"
+        android:background="#cc8899">
+
+        <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="72dp"
+          android:paddingTop="12dp">
+
+          <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Text..." />
+        </android.support.design.widget.TextInputLayout>
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="5"
+        android:background="#998833">
+
+        <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+          <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Text..." />
+        </android.support.design.widget.TextInputLayout>
+      </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:orientation="horizontal">
+
+      <View
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="#446677" />
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="5"
+        android:background="#cc8899">
+
+        <android.support.design.widget.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="72dp"
+          android:paddingTop="12dp">
+
+          <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Text..." />
+        </android.support.design.widget.TextInputLayout>
+      </RelativeLayout>
+
+      <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_weight="5"
+        android:background="#998833">
+
+        <android.support.design.widget.TextInputLayout
+          android:id="@+id/edit_wrapper"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:minHeight="72dp"
+          android:paddingTop="12dp">
+
+          <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:drawableLeft="@drawable/ic_toolbar_info"
+            android:hint="Text..." />
+        </android.support.design.widget.TextInputLayout>
+      </RelativeLayout>
+    </LinearLayout>
 
     <View style="@style/MdList.Spacing" />
   </LinearLayout>

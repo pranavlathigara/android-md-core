@@ -62,7 +62,6 @@
       <RelativeLayout
         android:id="@+id/goto_edit_text"
         android:background="@drawable/md_ripple"
-        android:visibility="gone"
         style="@style/MdList.SingleLine.TextOnly">
 
         <TextView
